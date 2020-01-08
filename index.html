@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <div class="main-wrapper">
+        <!-- Navbar Starts -->
+        <div class="nav-wrapper">
+            <div class="nav-wrapper__container">
+                <div class="nav-wrapper__container__internal-margin">
+                    <div class="nav-wrapper__logo__container">
+                        <img src="./assets/images/bag-yellow.svg" alt="" class="nav-wrapper__logo__image">
+                    </div>
+                    <div class="nav-wrapper__nav-list__container">
+                        <ul class="nav-list">
+                            <!-- <div class="product-search-and-shopping-cart">
+                                <div class="product-search-container">
+                                    <input type="text" class="product-search-form">
+                                </div>
+                                <div class="shopping-cart-icon-container">
+                                    <a href="./shopping-cart.html" class="shopping-cart-icon"><i class="fa fa-shopping-cart"></i></a>
+                                </div>
+                            </div> -->
+                            <li class="nav-list-items">
+                                <!-- <a href="#" class="nav-list-items__link current-page-link ">Home</a> -->
+                                <input type="text" class="product-search-form" placeholder="search products">
+                            </li>
+                            
+                            <li class="nav-list-items">
+                                <a href="#" class="nav-list-items__link current-page-link ">Home</a>
+                            </li>
+                            <li class="nav-list-items">
+                                <a href="./product-list.html" class="nav-list-items__link">Products</a>
+                            </li>
+                            <div class="nav-list-items dropdown-menu">
+                                <a href="/product-list.html" class="nav-list-items__link categories-menu-item">Categories</a>
+                                <div class="categoires-dropdown-container">
+                                    <ul class="categories-dropdown-list">
+                                        <li class="categories-dropdown-item"><a href="#">Bags</a></li>
+                                        <li class="categories-dropdown-item"><a href="#">Jackets</a></li>
+                                        <li class="categories-dropdown-item"><a href="#">Accessories</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <li class="nav-list-items">
+                                <a href="./shopping-cart.html" class="nav-list-items__link">Cart</a>
+                            </li>
+                            
+                            <li class="nav-list-items">
+                                <a href="./shopping-cart.html" class="nav-list-items__link">Wish List</a>
+                            </li>
+                            <li class="nav-list-items">
+                                <a href="./login.html" class="nav-list-items__link">Login</a>
+                            </li>
+                            <li class="nav-list-items">
+                                    <a href="#" class="nav-list-items__link shopping-cart-icon"><i class="fa fa-shopping-cart shoppping-cart-icon-style"></i></a>
+                                    
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar Ends -->
+
+        <!-- CTA Starts -->
+        <div class="main-home-section">
+            <div class="main-home__title">
+                <p class="first-line"><span class="own">Own</span> a <span class="brand">Brand</span></p>
+                <p class="second-line">Don't just</p>
+                <p class="third-line">Wear it .</p>
+                <div class="main-home-section__cta-container">
+                    <a href="#" class="main-home-section__cta-btn">Get Started <i class="fa fa-arrow-right main-home-section__cta-arrow"></i></a>
+                </div>
+            </div>
+            <div class="main-home__image__container">
+                <div class="main-home__image__first">
+                        <img src="./assets/images/hairy.jpg" alt="">
+                </div>
+                <div class="main-home__image__second">
+                    <img src="./assets/images/fashion_1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- CTA Ends -->
+
+        <!-- Products LIst -->
+        <div class="product-list-section__container">
+            <div class="product-list__header-container">
+                <p class="product-list__header">Featured Products</p>
+            </div>
+            <div class="product-list__section-list">
+                <div class="product-list__section-row">
+
+                    <div class="product-container">
+                        <div class="product-image-container">
+                            <img src="./assets/images/fashion_2.jpg" alt="" class="product-list__image">
+                        </div>
+                        <div class="product-title__container">
+                            <div class="product-title__container-row1">
+                                <p class="product-title">Product Title</p>
+                                <p class="product-price">$40.00</p>
+                            </div>
+                            <div class="product-title__container-row2">
+                                <a href="#" class="product-cta__add-to-cart">Add to Cart</a>
+                                <a href="./product-details.html" class="product-cta__details">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-container">
+                        <div class="product-image-container">
+                            <img src="./assets/images/leatherBag.jpg" alt="" class="product-list__image">
+                        </div>
+                        <div class="product-title__container">
+                            <div class="product-title__container-row1">
+                                <p class="product-title">Product Title</p>
+                                <p class="product-price">$40.00</p>
+                            </div>
+                            <div class="product-title__container-row2">
+                                <a href="#" class="product-cta__add-to-cart">Add to Cart</a>
+                                <a href="./product-details.html" class="product-cta__details">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-container">
+                        <div class="product-image-container">
+                            <img src="./assets/images/jacketMen.jpg" alt="" class="product-list__image">
+                        </div>
+                        <div class="product-title__container">
+                            <div class="product-title__container-row1">
+                                <p class="product-title">Product Title</p>
+                                <p class="product-price">$40.00</p>
+                            </div>
+                            <div class="product-title__container-row2">
+                                <a href="#" class="product-cta__add-to-cart">Add to Cart</a>
+                                <a href="./product-details.html" class="product-cta__details">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div> 
+
+        <!-- Footer Starts -->
+
+    <div class="footer-section">
+        <div class="footer-section-container">
+            
+            <div class="footer-col-1">
+                <div class="footer-menu-list">
+                    <div class="footer-menu-item">
+                        <a href="#">Home</a>
+                    </div>
+                    <div class="footer-menu-item">
+                        <a href="#">Products</a>
+                    </div>
+                    <div class="footer-menu-item">
+                        <a href="#">Cart</a>
+                    </div>
+                    <div class="footer-menu-item">
+                        <a href="#">Careers</a>
+                    </div>
+                    <div class="footer-menu-item">
+                        <a href="#">FAQ</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-col-2">
+                <div class="footer-menu-list">
+                    <div class="footer-menu-item">
+                        <a href="#">Home</a>
+                    </div>
+                    <div class="footer-menu-item">
+                        <a href="#">Products</a>
+                    </div>
+                    <div class="footer-menu-item">
+                        <a href="#">Cart</a>
+                    </div>
+                    <div class="footer-menu-item">
+                        <a href="#">Careers</a>
+                    </div>
+                    <div class="footer-menu-item">
+                        <a href="#">FAQ</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-col-3">
+                <div class="footer-menu-list">
+                    <div class="footer-menu-item">
+                        <a href="#">Home</a>
+                    </div>
+                    <div class="footer-menu-item">
+                        <a href="#">Products</a>
+                    </div>
+                    <div class="footer-menu-item">
+                        <a href="#">Cart</a>
+                    </div>
+                    <div class="footer-menu-item">
+                        <a href="#">Careers</a>
+                    </div>
+                    <div class="footer-menu-item">
+                        <a href="#">FAQ</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-col-4">
+                <div class="footer-menu-list">
+                    <div class="footer-menu-item">
+                        <a href="#">Home</a>
+                    </div>
+                    <div class="footer-menu-item">
+                        <a href="#">Products</a>
+                    </div>
+                    <div class="footer-menu-item">
+                        <a href="#">Cart</a>
+                    </div>
+                    <div class="footer-menu-item">
+                        <a href="#">Careers</a>
+                    </div>
+                    <div class="footer-menu-item">
+                        <a href="#">FAQ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Footer Ends -->
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
